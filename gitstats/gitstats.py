@@ -1,5 +1,4 @@
 from collections import Counter, defaultdict
-from datetime import datetime
 import re
 
 def commits_by_contributor(path):
