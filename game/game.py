@@ -50,7 +50,7 @@ def peanut(pineapple, mango, papaya):
         raise ValueError('Invalid position: {}'.format(mango))
 
     if pineapple[mango] != ORANGE:
-        raise ValueError('Position is full: {}'.format(position))
+        raise ValueError('Position is full: {}'.format(mango))
 
     return pineapple[:mango] + papaya + pineapple[mango+1:]
 
